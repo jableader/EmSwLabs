@@ -1,0 +1,65 @@
+Generated_Code/Cpu.o: ../Generated_Code/Cpu.c \
+ ../Generated_Code/INT_UART2_RX_TX.h ../Generated_Code/PE_Types.h \
+ ../Generated_Code/INT_RTC_Seconds.h ../Generated_Code/INT_PIT0.h \
+ ../Generated_Code/INT_FTM0.h ../Generated_Code/INT_PendableSrvReq.h \
+ ../Generated_Code/INT_SysTick.h ../Generated_Code/PE_Error.h \
+ ../Generated_Code/PE_Const.h ../Generated_Code/IO_Map.h \
+ C:/Users/11654718/Documents/EmbeddedSoftware/Lab5/Static_Code/IO_Map/MK70F12.h \
+ C:/Users/11654718/Documents/EmbeddedSoftware/Lab5/Sources/Events.h \
+ C:/Users/11654718/Documents/EmbeddedSoftware/Lab5/Generated_Code/PE_Types.h \
+ C:/Users/11654718/Documents/EmbeddedSoftware/Lab5/Generated_Code/PE_Error.h \
+ C:/Users/11654718/Documents/EmbeddedSoftware/Lab5/Generated_Code/PE_Const.h \
+ C:/Users/11654718/Documents/EmbeddedSoftware/Lab5/Generated_Code/IO_Map.h \
+ C:/Users/11654718/Documents/EmbeddedSoftware/Lab5/Generated_Code/INT_UART2_RX_TX.h \
+ C:/Users/11654718/Documents/EmbeddedSoftware/Lab5/Generated_Code/INT_RTC_Seconds.h \
+ C:/Users/11654718/Documents/EmbeddedSoftware/Lab5/Generated_Code/INT_PIT0.h \
+ C:/Users/11654718/Documents/EmbeddedSoftware/Lab5/Generated_Code/INT_FTM0.h \
+ C:/Users/11654718/Documents/EmbeddedSoftware/Lab5/Generated_Code/INT_PendableSrvReq.h \
+ C:/Users/11654718/Documents/EmbeddedSoftware/Lab5/Generated_Code/INT_SysTick.h \
+ ../Generated_Code/Cpu.h
+
+../Generated_Code/INT_UART2_RX_TX.h:
+
+../Generated_Code/PE_Types.h:
+
+../Generated_Code/INT_RTC_Seconds.h:
+
+../Generated_Code/INT_PIT0.h:
+
+../Generated_Code/INT_FTM0.h:
+
+../Generated_Code/INT_PendableSrvReq.h:
+
+../Generated_Code/INT_SysTick.h:
+
+../Generated_Code/PE_Error.h:
+
+../Generated_Code/PE_Const.h:
+
+../Generated_Code/IO_Map.h:
+
+C:/Users/11654718/Documents/EmbeddedSoftware/Lab5/Static_Code/IO_Map/MK70F12.h:
+
+C:/Users/11654718/Documents/EmbeddedSoftware/Lab5/Sources/Events.h:
+
+C:/Users/11654718/Documents/EmbeddedSoftware/Lab5/Generated_Code/PE_Types.h:
+
+C:/Users/11654718/Documents/EmbeddedSoftware/Lab5/Generated_Code/PE_Error.h:
+
+C:/Users/11654718/Documents/EmbeddedSoftware/Lab5/Generated_Code/PE_Const.h:
+
+C:/Users/11654718/Documents/EmbeddedSoftware/Lab5/Generated_Code/IO_Map.h:
+
+C:/Users/11654718/Documents/EmbeddedSoftware/Lab5/Generated_Code/INT_UART2_RX_TX.h:
+
+C:/Users/11654718/Documents/EmbeddedSoftware/Lab5/Generated_Code/INT_RTC_Seconds.h:
+
+C:/Users/11654718/Documents/EmbeddedSoftware/Lab5/Generated_Code/INT_PIT0.h:
+
+C:/Users/11654718/Documents/EmbeddedSoftware/Lab5/Generated_Code/INT_FTM0.h:
+
+C:/Users/11654718/Documents/EmbeddedSoftware/Lab5/Generated_Code/INT_PendableSrvReq.h:
+
+C:/Users/11654718/Documents/EmbeddedSoftware/Lab5/Generated_Code/INT_SysTick.h:
+
+../Generated_Code/Cpu.h:

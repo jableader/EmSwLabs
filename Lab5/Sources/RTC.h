@@ -1,0 +1,53 @@
+/*! @file
+ *
+ *  @brief Routines for controlling the Real Time Clock (RTC) on the TWR-K70F120M.
+ *
+ *  This contains the functions for operating the real time clock (RTC).
+ *
+ *  @author PMcL
+ *  @date 2015-08-24
+ */
+
+#ifndef RTC_H
+#define RTC_H
+
+// new types
+#include "types.h"
+#include "OS.h"
+
+/*! @brief Initializes the RTC before first use.
+ *
+ *  Sets up the control register for the RTC and locks it.
+ *  Enables the RTC and sets an interrupt every second.
+ *  @param semaphore The semaphore to signal each RTC tick
+ *  @return bool - TRUE if the RTC was successfully initialized.
+ */
+bool RTC_Init(OS_ECB * semaphore);
+
+/*! @brief Sets the value of the real time clock.
+ *
+ *  @param hours The desired value of the real time clock hours (0-23).
+ *  @param minutes The desired value of the real time clock minutes (0-59).
+ *  @param seconds The desired value of the real time clock seconds (0-59).
+ *  @note Assumes that the RTC module has been initialized, all input parameters are in range, and that the clock is running.
+ */
+void RTC_Set(const uint8_t hours, const uint8_t minutes, const uint8_t seconds);
+
+/*! @brief Gets the value of the real time clock.
+ *
+ *  @param hours The address of a variable to store the real time clock hours.
+ *  @param minutes The address of a variable to store the real time clock minutes.
+ *  @param seconds The address of a variable to store the real time clock seconds.
+ *  @note Assumes that the RTC module has been initialized.
+ */
+void RTC_Get(uint8_t* const hours, uint8_t* const minutes, uint8_t* const seconds);
+
+/*! @brief Interrupt service routine for the RTC.
+ *
+ *  The RTC has incremented one second.
+ *  The semaphore will be signalled.
+ *  @note Assumes the RTC has been initialized.
+ */
+void __attribute__ ((interrupt)) RTC_ISR(void);
+
+#endif
